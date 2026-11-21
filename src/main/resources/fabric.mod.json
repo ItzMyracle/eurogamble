@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "eurogamble",
+  "version": "${version}",
+  "name": "EuroGamble",
+  "description": "Client-side gambling tracker for EuropeMC: sessions, profit, streaks, rakeback, HUD bar, pay buttons and a safety prompt for big payments.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.eurogamble.EuroGambleMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
